@@ -1,6 +1,6 @@
 class Author 
   attr_accessor
-  def initialize
-    
+  def initialize(author)
+    @author = author
   end
 end
